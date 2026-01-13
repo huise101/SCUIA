@@ -1,2 +1,2 @@
 # SCUIA
-To be open sourced soon
+The code is being sorted out. Please wait a moment.
