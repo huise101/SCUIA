@@ -30,7 +30,7 @@ SCUIA/
   predict.py
 ```
 
-## Testing
+## Start
 Run:
 
 ```bash
