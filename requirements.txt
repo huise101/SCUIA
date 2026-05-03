@@ -1,0 +1,12 @@
+numpy
+pandas
+pillow
+torch
+torchvision
+tqdm
+h5py
+timm
+ptflops
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
