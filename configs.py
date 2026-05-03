@@ -4,6 +4,7 @@ from pathlib import Path
 # Configuration file for SCUIA.
 
 PROJECT_ROOT = Path(__file__).resolve().parent
+SCORE_FUSION_SEMANTIC_WEIGHT = 5e-4
 
 exp_config = {
 
@@ -53,7 +54,7 @@ exp_config = {
     'results_path_semantic_model': str(r"./Results/Semantic_Encoder"),
 
     # Score fusion arguments
-    'score_fusion_image_weight': 0.9995,
+    'score_fusion_image_weight': 1.0 - SCORE_FUSION_SEMANTIC_WEIGHT,
     'score_calibration_min': 0.42,
     'score_calibration_max': 0.52,
 }
