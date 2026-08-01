@@ -1,4 +1,4 @@
-# SCUIA Semantic Contrast for Domain-Robust Underwater Image Quality Assessment
+# SCUIA Semantic Contrast for Domain-Robust Underwater Image Quality Assessment (IEEE TPAMI)
 
 ## Requirements
 Install dependencies:
